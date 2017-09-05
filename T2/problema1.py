@@ -4,9 +4,13 @@
 import nltk, csv
 import nltk.data
 from nltk.corpus import stopwords
-from nltk.corpus.reader import WordListCorpusReader
 from nltk.tokenize import RegexpTokenizer
 from nltk.tokenize import word_tokenize
+from nltk import NaiveBayesClassifier
+
+# Retorna no formato de dicionário utilizado pelo classificador.
+def word_feats(word):
+    return {'word': word}
 
 # Leitura do arquivo csv. Utilizar encoding UTF8 para preservar acentuação.
 with open('manchetesBrasildatabase.csv', encoding='utf8') as csvFile:
@@ -20,8 +24,7 @@ with open('manchetesBrasildatabase.csv', encoding='utf8') as csvFile:
         tokenizer = RegexpTokenizer(r'\w+')
         content = [word.lower() for word in tokenizer.tokenize(headline) if word.lower() not in stop_words]
         headlines.append(content)
-
-# Lista de headlines contém agora as palavras a serem processadas para encontrar a valência relativa.
+csvFile.close()
 
 # Leitura do corpus OpLexicon 3.0 
 #### Referência:
@@ -29,15 +32,22 @@ with open('manchetesBrasildatabase.csv', encoding='utf8') as csvFile:
 ####          Construction of a Portuguese Opinion Lexicon from multiple resources.
 ####          8th Brazilian Symposium in Information and Human Language Technology - STIL. Mato Grosso, Brazil.
 ####
+with open('lexico_v3.0.txt', encoding='utf8') as csvFile:
+    readCsv = csv.reader(csvFile, delimiter=',')
+    features = [[]]
+    for row in readCsv:
+        features = list(list(rec) for rec in csv.reader(csvFile, delimiter=','))
 
-reader = WordListCorpusReader('.', ['lexico_v3.0.txt'])
-lines = [word_tokenize(x) for x in reader.words()]
-features = [(x[0],x[4]) for x in lines]
+csvFile.close()
 
+# Criação de um training set para o classificador de Bayes
+training_set = [(word_feats(word), valence) for (word,pos,valence,sth) in features]
+classifier = NaiveBayesClassifier.train(training_set)
 
-#from itertools import chain
-#vocabulary = set(chain(*[word_tokenize(i.lower()) for i in lines]))
-
-#x = {i:(i in headlines[0]) for i in vocabulary}
-#from nltk import NaiveBayesClassifier as nbc
-#classifier = nbc.train(x)
+# Classificação das headlines do jornal.
+for headline in headlines:
+    i = 1
+    print ('headline' + str(i))
+    for word in headline:
+        print(word + ' : ' + classifier.classify(word_feats(word.lower())))
+    i = i+1
