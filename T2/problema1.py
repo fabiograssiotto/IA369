@@ -10,15 +10,17 @@ from nltk import NaiveBayesClassifier
 
 # Retorna no formato de dicionário utilizado pelo classificador.
 def word_feats(word):
-    return {'word': word}
+        return dict([(word, True)])
 
 # Leitura do arquivo csv. Utilizar encoding UTF8 para preservar acentuação.
 with open('manchetesBrasildatabase.csv', encoding='utf8') as csvFile:
     readCsv = csv.reader(csvFile, delimiter=',')
+    org_headlines = []
     headlines = []
     for row in readCsv:
         # O único campo relevante para o algoritmo é a manchete em si.
         headline = row[4]
+        org_headlines.append(headline)
         # Remover nesta etapa de pre-processamento as 'stopwords' para restringir a análise, e fazer todas as palavras minúsculas.
         stop_words = stopwords.words('portuguese')
         tokenizer = RegexpTokenizer(r'\w+')
@@ -45,9 +47,8 @@ training_set = [(word_feats(word), valence) for (word,pos,valence,sth) in featur
 classifier = NaiveBayesClassifier.train(training_set)
 
 # Classificação das headlines do jornal.
-for headline in headlines:
-    i = 1
-    print ('headline' + str(i))
+for headline,org_headline in zip(headlines, org_headlines):
+    valSum = 0
     for word in headline:
-        print(word + ' : ' + classifier.classify(word_feats(word.lower())))
-    i = i+1
+        valSum = valSum + int(classifier.classify(word_feats(word.lower())))
+    print (org_headline + ' : ' + str(valSum/len(headline)))
