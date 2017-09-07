@@ -1,0 +1,502 @@
+Resultados:
+
+'BNDES encolhe e volta ao nível de 20 anos atrás'                                     : -0.86
+'BC cria novo instrumento de política monetária.'                                     : -0.50
+'Câmbio gera bate-boca entre UA e UE.'                                                : -1.00
+'Indenização a transmissoras de energia já chega à tarifa.'                           : -1.00
+'Políticos esperam que relator separe "joio do trigo".'                               : -0.83
+'Philips quer administrar hospitais públicos no Brasil.'                              : -0.50
+'Com vendas em queda                                                                  : -0.50
+'Fachin poderá ir para turma que julga Lava-Jato.'                                    : -0.86
+'Eike tem multas que superam fundo para prisões.'                                     : -1.00
+'Operador pagou decoração de luxo de imóveis de Cabral.'                              : -0.33
+'Drama do desemprego está longe de diminuir.'                                         : -1.00
+'BC prevê queda da inflação a 3%.'                                                    : -0.80
+'Boicote atrasa governo Trump.'                                                       : -0.50
+'Crivella negocia Vila dos Atletas.'                                                  : -0.50
+'Crise amplia diferença de salário entre CLT e servidor.'                             : -1.00
+'Governo faz cortes após déficit recorde de R$ 155                                    : -0.75
+'Vitória é dada como certa no Senado                                                  : -0.20
+'Operador diz que repatriou propina de Eike a Cabral.'                                : -0.83
+'Doria quer punir pichadores com multa pesada e trabalho de gari.'                    : -0.62
+'Pedro Parente: Brasil não deveria ter desapreço ao capital estrangeiro.'             : -0.62
+'Trump indica juiz conservador para a Suprema Corte.'                                 : -0.33
+'Obter visto para os EUA fica mais difícil para os brasileiros.'                      : -0.33
+'Financiamentos do BNDES têm maior queda em 22 anos.'                                 : -0.71
+'Sorteio na 2ª Turma do STF definirá relator da Lava-Jato.'                           : -1.00
+'Desemprego atinge 12%.'                                                              : -1.00
+'Trump põe juiz conservador na Suprema Corte americana.'                              : -0.29
+'Brasil e EUA definem nomes de monitores da Odebrecht.'                               : -0.83
+'Mais brasileiros terão de fazer entrevista para visto.'                              :  0.00
+'Indenização a teles por bens reversíveis custaria R$ 20 bi'                          : -0.88
+'Supervia não paga e pede indenização.'                                               : -0.50
+'Para Alemanha                                                                        : -1.00
+'Governo Macri foi "ingênuo" sobre volta dos investimentos.'                          : -0.83
+'Doria atribui doações a altruísmo empresarial.'                                      : -0.80
+'Investimentos das estatais devem ter execução recorde.'                              : -0.67
+'XP fica cada vez mais distante de suas origens.'                                     : -1.00
+'Fé da Mangueira leva Estandarte.'                                                    : -1.00
+'MP vai exigir regras de segurança para alegorias.'                                   : -0.50
+'O carnaval de peito aberto dos blocos.'                                              : -0.75
+'Trump agora acena com legalização de imigrantes.'                                    : -0.40
+'Sem Padilha                                                                          : -1.00
+'Conheça as mudanças na declaração do IR.'                                            : -0.75
+'Comissão rejeita pilares da nova Previdência.'                                       : -0.60
+'Propostas radicais têm chance política.'                                             : -0.60
+'Elio Gaspari: Presidente bate recorde em perda de colaboradores.'                    : -0.86
+'Hélio Schwartsman: Puxadinho vira estratégia para evitar confrontos.'                : -0.71
+'No desempate                                                                         : -1.00
+'Trump pode desistir de expulsar ilegais sem crime grave.'                            : -0.86
+'Maioria da torcida em SP não sabe nome de jogador.'                                  : -0.67
+'Crédito para famílias supera pela primeira vez o de empresas.'                       : -0.83
+'Protecionismo de trump pode afetar o Brasil                                          : -0.40
+'Janor pede que Aécio seja ouvido sobre Furnas no STF.'                               : -0.86
+'Tatuapé comemora um título inédito.'                                                 : -0.50
+'Acidentes ferem 32 na Sapucaí.'                                                      : -1.00
+'Rede Fnac vai deixar o país.'                                                        : -0.60
+'Doria anuncia o Nota do Milhão.'                                                     : -0.50
+'Donos da JBS assumem ônus do acordo de leniência.'                                   : -1.00
+'Novo Refis traz descontos em juros e multas.'                                        : -0.67
+'Crise leva BC a reduzir ritmo de corte de juro.'                                     : -1.00
+'Corrupção distorce competição                                                        : -1.00
+'Tucanos da Câmara e de SP querem romper com Temer.'                                  : -0.83
+'Latam reforça busca de rentabilidade.'                                               : -1.00
+'Ministro tem posse esvaziada                                                         : -1.00
+'Senadores amenizam fim do foro privilegiado.'                                        : -0.80
+'Senado aprova eleições diretas.'                                                     : -0.75
+'Marco Aurélio levará pedido de prisão de Aécio ao plenário.'                         : -0.71
+'Em áudio                                                                             : -1.00
+'Joesley deu dinheiro a firma da qual filho de Mantega foi sócio.'                    : -0.86
+'JBS faz acordo para pagar R$ 10                                                      : -0.83
+'Incerteza leva BC a cortar menos os juros'                                           : -1.00
+'O passado bate à porta.'                                                             : -1.00
+'Andreas von Richthofen: A vida pelo avesso.'                                         : -1.00
+'Facção ordena morte de agentes.'                                                     : -1.00
+' BC cita impacto da crise e diz que juro cairá menos.'                               : -1.00
+'Planalto aponta "falha sistêmica" na diplomacia.'                                    : -0.60
+'Em um ano                                                                            : -1.00
+'Governo prevê dívida fixa e fim de carência no Fies.'                                : -0.71
+'Novo ministro da Justiça sinaliza que comando da PF será trocado.'                   : -0.43
+'Em acordo                                                                            : -1.00
+'Senado aprova fim do foro                                                            : -1.00
+'Ala do PSDB articula saída do governo antes de julgamento.'                          : -0.57
+'Fachin mantém depoimento de Temer.'                                                  : -0.75
+'BC reduz Selic para 10                                                               : -1.00
+'Atentado mata 90 pessoas em Cabul.'                                                  : -1.00
+'Teatro Municipal de SP deve &nbsp;R$ 1                                               : -0.57
+'Citado em delação vai dirigir fundo do FGTS'                                         : -0.33
+'Trump deve desistir de acordo climático.'                                            : -0.40
+'Reforma moderniza lei e dá mais poder a sindicatos.'                                 : -0.83
+'EUA vão fiscalizar Odebrecht e Braskem.'                                             : -1.00
+'Temer: ''Nunca caí de pinguela''.'                                                   : -0.75
+'Saque do FGTS não terá limite.'                                                      : -1.00
+'Violência no Rio: Assassinatos sobem 41                                              : -1.00
+'Câmara provoca forte reação ao desfigurar pacote anticorrupção.'                     : -0.57
+'País deve enfrentar a recessão mais intensa.'                                        :  0.00
+'Colômbia confirma que avião não tinha combustível ao cair.'                          :  0.00
+'Recessão prolongada no país eleva pessimismo sobre 2017.'                            : -1.00
+'"Falha elétrica total                                                                : -0.67
+'Pasquale Cipro Neto: Tragédia do Torino povoa imaginário desde a infância.'          : -0.89
+'Senado nega apoio à Câmara em embate com STF sobre aborto.'                          : -1.00
+'Após ameaça Renan perde em manobra contra Lava-Jato.'                                : -1.00
+'Presidente Temer corre risco de não chegar a 2018                                    : -0.67
+'Regime de Cuba é o que mais matou na América. '                                      : -0.80
+'Força-tarefa ameaça abandonar Lava-Jato; aumenta tensão entre Poderes.'              : -1.00
+'Renan tenta votar medidas                                                            : -1.00
+'A volta dos panelaços: protestos agora miram Congresso.'                             : -1.00
+'Falta de combustível derrubou avião                                                  : -0.25
+'PIB cai pelo sétimo trimestre seguido; projeções pioram.'                            : -0.86
+'"Falha total                                                                         : -0.50
+'Empresa LaMia teve 4 voos negados no Brasil                                          : -0.83
+'Barroso pede "políticas melhores" sobre aborto.'                                     : -0.50
+'Entidades criticam quebra de sigilo de jornalista.'                                  : -1.00
+'Congresso colombiano ratifica acordo com Farc.'                                      : -1.00
+'Agronegócio volta a investir para produzir safra recorde.'                           : -0.83
+'Brasil tenta resistir ao avanço chinês.'                                             : -0.60
+'Prefeitos assumem para administrar crise.'                                           : -0.75
+'Grupos contra Trump vão protestar no dia da posse.'                                  : -0.57
+'Inteligência artificial dita os avanços da TI.'                                      : -0.80
+'Investidor influencia pouco a reforma do Novo Mercado.'                              : -0.67
+'População de idosos cresce mai na AL.'                                               : -0.80
+'Crivella anuncia corte de gastos e mudanças no IPTU.'                                : -1.00
+'A volta do pastor: Em nome de Deus e do tio.'                                        : -1.00
+'Alguns dos decretos.'                                                                : -1.00
+'Na Baixada                                                                           : -1.00
+'Austeridade é a promessa dos novos prefeitos.'                                       : -0.40
+'Em SP                                                                                : -1.00
+'Doria prega conciliação e diz que recuará quando preciso.'                           : -0.50
+'Homem mata a tiros ex-mulher                                                         : -1.00
+'Ataque deixa 39 mortos em clube em Istambul.'                                        : -1.00
+'Ronaldo Lemos: Estados ignoram privacidade de contribuintes.'                        : -0.83
+'Crise econômica afeta inovação das empresas.'                                        : -0.80
+'Mônica Bergamo: Fiesp projeta um impulso maior da indústria em 2017.'                : -0.88
+'Entrevista na 2ª: James T. Hamilton: Sociedade lucra com jornalismo investigativo.'  : -0.89
+'Prefeitos tomam posse com discurso contra gasto e cargos.'                           : -1.00
+'Doria deixa privatizações para 2018.'                                                : -0.75
+'"Reforma da Previdência será aprovada no 1º semestre".'                              : -0.60
+'Turquia caça atirador que matou 39 em boate.'                                        : -1.00
+'Homem mata ex                                                                        : -1.00
+'Brasileiros vão para o Paraguai abrir fábricas.'                                     : -0.80
+'Cenário é favorável à retomada.'                                                     : -0.25
+'Construtoras da lava-jato legalizam dinheiro sujo.'                                  : -1.00
+'McDermott: de garoto pobre a executivo de primeira linha.'                           : -0.67
+'Delações privilegiam "tubarões".'                                                    : -1.00
+'Trabalhador rural pode vir a ser pago com casa.'                                     :  0.00
+'Jornal premia os "executivos de Valor 2017".'                                        : -0.60
+'Ativistas contra os ovos de galinhas confinadas.'                                    : -0.80
+'Maduro convovca constituinte                                                         : -0.33
+'As revelações da ex-secretária de Adriana ancelmo.'                                  : -1.00
+'Na cadeia                                                                            : -1.00
+'Ataque deixa índios feridos.'                                                        : -1.00
+'Temer cobra apoio da base para votar já a Previdência.'                              : -0.83
+'Cehab corre até risco de despejo.'                                                   : -1.00
+'Prefeitura caça e pune fantasmas.'                                                   : -1.00
+'Jovens estudam com medo.'                                                            : -0.67
+'Brasileiros estão menos pessimistas com a economia.'                                 : -0.75
+'Debate sobre a Previdência deve ir além do fiscal.'                                  : -0.43
+'Governo deve adiar votação na Câmara da nova aposentadoria.'                         : -0.14
+'Ataque fere mais de dez indígenas no Maranhão.'                                      : -0.80
+'Agenda de ministro privilegia ruralistas e deixa índio de fora.'                     : -1.00
+'Maduro convoca Constituinte sem voto universal.'                                     : -0.40
+'Exportação alavanca empregos em 13 de 25 setores da economia.'                       : -1.00
+'1º de maio tem protestos de centrais contra Temer.'                                  : -0.67
+'Manoel Pires: "Sem reforma é difícil ver alternativa".'                              : -0.43
+'Cervejaria apontada como laranja doou a 81 políticos.'                               : -0.83
+'Índio tem as mãos cortadas no Maranhão.'                                             : -1.00
+'Mãe pega pena de 48 anos por torturar a filha.'                                      : -0.71
+'Trump aceita debater Coreia com Kim Jong-un.'                                        : -0.57
+'Cesar Cielo tenta retomar carreira.'                                                 : -0.80
+'Temer joga tudo para barrar denúncia com votação alta'                               : -0.71
+'Juros caem e mercado já vê Selic a 7                                                 : -1.00
+'MP busca o apoio de ruralistas'                                                      : -1.00
+'Governo poupa                                                                        : -0.50
+'Temer vai ao limite'                                                                 : -0.33
+'Lula é réu no caso do sítio de Atibaia'                                              : -0.67
+'ONU e países reagem a Maduro'                                                        : -0.50
+'Meta de 2018 pode ser revista'                                                       : -0.60
+'Em ofensiva                                                                          : -1.00
+'Lula se torna réu pela 6ª vez                                                        : -0.80
+'Justiça condena à prisão braço direito de Abilio Diniz'                              : -0.86
+'Chavismo volta a prender rivais do governo Maduro'                                   : -0.50
+'Temer faz corpo a corpo em busca de ''indefinidos'''                                 : -0.83
+'Lula vira réu pela 6ª vez                                                            : -0.80
+'Gilmar ataca Janot e pede ''decência'' à PGR'                                        : -0.83
+'Governo abre mão de R$ 5                                                             : -0.60
+'Mercado de capitais já supera crédito do BNDES.'                                     : -1.00
+'Inativo leva 40% da folha nos Estados.'                                              : -1.00
+'Credores da Oi defendem intervenção.'                                                : -0.50
+'UE usa caso da carne para pedir abertura.'                                           : -0.67
+'Novo rotativo do cartão entra em vigor hoje.'                                        : -0.67
+'País deve arrecadar R$ 24 bilhões com pré-sal.'                                      : -0.38
+'Lucro cresce                                                                         : -1.00
+'TSE tem sido contra separação de chapa.'                                             : -1.00
+'Candidato de Correa lidera apuração.'                                                : -1.00
+'Venezuela já fez 58 ataques à Assembleia.</p'                                        : -1.00
+'Regra gera abismo entre datas de aposentadorias.'                                    : -1.00
+'Equador deixa governista em 1º após 94% dos votos apurados.'                         : -0.62
+'Para Maduro                                                                          :  1.00
+'Temor de mais repressão esvazia ruas de Assunção.'                                   : -1.00
+'Doria zera fila de exames                                                            : -0.75
+'TST defende fim de cobrança obrigatória do imposto sindical.'                        : -0.57
+'Ações da Lava-Jato pedem R$ 70 bilhões de indenização.'                              : -0.88
+'Candidato de Correa vence no Equador                                                 : -1.00
+'Entra em vigor regra que limita juro do cartão.'                                     : -1.00
+'Pão de Açúcar foca no atacarejo.'                                                    : -1.00
+'Analistas já preveem dívida bruta acima de 80% do PIB.'                              : -0.86
+'Governo estuda outras medidas para previdência.'                                     : -0.80
+'PIB já se afastou da política                                                        : -0.67
+'Segurança nacional dos EUA ameaça comércio.'                                         : -0.80
+'As gigantes se conectam às startups.'                                                : -0.67
+'Deloitte usa fraude no Brasil para reforçar política de tolerância zero.'            : -0.50
+'Google dá 84 dias de licença paternidade.'                                           : -1.00
+'Proprietário já oferece até aluguel grátis por três meses.'                          : -0.83
+'Planalto mapeia votos para evitar traições.'                                         : -0.60
+'As flechas de Janot.'                                                                : -0.50
+'Jacob Barata Filho é preso.'                                                         : -0.60
+'Trump volta a "socar" a imprensa.'                                                   : -0.75
+'A luta pela vida do bebê baleado.'                                                   : -1.00
+'Missão de fé: O padre da Cracolândia.'                                               : -1.00
+'Apoio à esquerda sobe e repõe empate ideológico.'                                    : -0.50
+'Mauro Paulino: Pesquisa mostra desalento e medo da sociedade.'                       : -1.00
+'Tucanos criam dificuldades para Doria na Câmara.'                                    : -0.80
+'JBS usava rede de mercados para ter dinheiro vivo.'                                  : -0.57
+'Delfim Netto: Brasil deixou poder privado controlar o poder político.'               : -0.33
+'Tiroteio em frente a mesquita fere ao menos 8 na França.'                            : -1.00
+'Crescem juros de crédito pessoal e de renegociação.'                                 : -0.80
+'Luiz Felipe Pondé: É preciso pensar na longevidade para além do marketing.'          : -0.44
+'Gasto federal deve crescer o dobro do permitido pela lei.'                           : -0.57
+'Nenhum partido apoio a Temer.'                                                       : -0.75
+'OMS quer que vício em games seja distúrbio psiquiátrico.'                            : -1.00
+'Trump faz vídeo de ataque à CNN.'                                                    : -0.80
+'Do vinho de garrafão a prêmios no exterior.'                                         : -1.00
+'Arrecadação de impostos cai mais e dificulta ajuste.'                                : -1.00
+'São Paulo dá sequência à venda da Cesp.'                                             : -1.00
+'EUA autorizam confisco de bens da Venezuela.'                                        : -1.00
+'Bancosw vão ao MPF fazer consulta sobre leniência.'                                  : -0.86
+'Estée Lauder vê expansão no Brasil no longo prazo.'                                  : -0.71
+'PSDB apoia Temer para salvar Aécio                                                   : -0.80
+'De volta ao país                                                                     : -1.00
+'A primeira sentença pela "ganância desmedida".'                                      : -0.75
+'Vítimas da crise e da corrupção tentam sobreviver.'                                  : -0.80
+'Em busca de apoio                                                                    : -1.00
+'Supremo mantém irmã de Aécio na cadeia.&nbsp;'                                       : -0.67
+'Cunha depõe hoje em inquérito sobre Temer.'                                          : -0.83
+'Contra a censura                                                                     : -1.00
+'Com FGTS                                                                             : -1.00
+'Entidades repudiam agressão a Míriam.'                                               : -1.00
+'Tecnologia no dia a dia.'                                                            : -1.00
+'Escândalo afasta dirigente do Uber.'                                                 : -0.50
+'Crivella e o samba: Zero em harmonia.'                                               : -1.00
+'Sérgio Cabral é condenado a 14 anos na Lava-Jato.'                                   : -0.75
+'STF deve julgar pedido de prisão de Aécio no dia 20.'                                : -0.38
+'Marcelo Coelho: Toda a sociedade está em processo de desmoralização.'                : -1.00
+'Varejo surpreende e interrompe dois anos de retração.'                               : -1.00
+'Temer prevê livros sem a versão final da vase curricular.'                           : -0.71
+'Venezuela impede ativistas presos de contatarem defesa.'                             : -1.00
+'Instituto de Gilmar teve patrocínio de R4 2                                          : -1.00
+'Joesley retorna ao país e diz que não passeava em NY.'                               : -1.00
+'Senado se recusa a afastar Aécio; STF mantém irmã presa.'                            : -1.00
+'Joesley está no país desde domingo.'                                                 : -1.00
+'Relator quer MP do Refis mais favorável a empresas.'                                 : -0.67
+'Moro condena Cabral a 14 anos de prisão por corrupção.'                              : -0.86
+'Rotina precária nos hospitais universitários do interior de SP.'                     : -1.00
+'A um ano da Copa                                                                     : -1.00
+'Coreia do Norte liberta americano.'                                                  : -0.50
+'Azul amplia frota e oferta de voos.'                                                 : -0.80
+'Incêndio em Londres.'                                                                : -1.00
+'TLP provoca discórdias entre economistas e no governo'                               : -0.80
+'Adiado o fim da "novela" do déficit fiscal'                                          : -0.80
+'Alternativas para privatizar distribuidoras'                                         : -0.67
+'Cunha e Palocci frustram investigadores'                                             : -0.75
+'Pressão de aliados dificulta a revisão do rombo fiscal'                              : -0.67
+'Câmara tenta driblar fim das coligações'                                             : -1.00
+'Direito de ir e vir à mercê do tráfico'                                              : -0.20
+'Trump fala                                                                           : -0.50
+'Rio em crise tem um PM morto a cada dois dias'                                       : -1.00
+'Disputa entre alas do governo adia anúncio da nova meta fiscal'                      : -0.50
+'JBS divulga lucro 80% menor após acordo de delação'                                  : -0.88
+'Relator recebia votos prontos                                                        : -0.50
+'MPF diz que Joesley omitiu crime e quer cobrar R$ 1 bi'                              : -0.70
+'Insegurança afeta 1 em 3 empresas'                                                   : -1.00
+'Governo quer elevar alíquota previdenciária de servidores'                           : -0.67
+'Sob pressão                                                                          : -1.00
+'Depois de porto e aeroporto                                                          : -1.00
+'Temer pode dobrar gaixa de isenção do IR.'                                           : -0.67
+'"Sucessão em 2018 dificulta retomada"                                                : -1.00
+'XP quer ser líder em cinco anos.'                                                    : -0.50
+'Europol alerta para novo ciberataque.'                                               :  0.00
+'Tribunal é mais duro que Moro.'                                                      : -0.75
+'A gestão incomum de Norberto na DPaschoal.&nbsp;'                                    : -0.80
+'Estados vão privatizar empresas de gás natural.'                                     : -0.83
+'Guerras entre traficantes provocam êxodo em favelas.'                                : -1.00
+'É isso mesmo                                                                         :  0.00
+'Conflito entre órgãos pode frear delações.'                                          : -0.80
+'Macron promete um "renascimento".'                                                   : -1.00
+'Números mostram baixa eficácia da polícia paulista.'                                 : -0.83
+'Guido Mantega: Perdi minha reputação                                                 : -1.00
+'Conta para o PT teve R$ 324 milhões da Odebrecht                                     : -0.83
+'Reformas elevam dispersão na base de apoio a Temer.'                                 : -0.83
+'Bolsonaro                                                                            : -1.00
+'Ruy Castro: Sem matemática                                                           : -1.00
+'Garços temem perder renda com nova lei das gorjetas.'                                : -0.71
+'Procuradores preparam novo inquérito contra Lula.'                                   : -0.50
+'Empreiteiros serãoouvidos sobre ações na América Latina.'                            : -0.83
+'Presidente do BNDES diz que banco quer saber se foi usado.'                          : -0.71
+'"Itaú não vai interferir"                                                            : -0.67
+'Macron faz promessa de "França forte".'                                              : -0.60
+'Mãe recupera guarda de filho levado aos EUA.'                                        : -0.83
+'Gato com fuzi em SP cresce 73 vezes                                                  : -1.00
+'Ataque cibernético já atige 150 países.'                                             : -1.00
+'Lista de Janot tem cinco ministros                                                   : -0.75
+'Governo define proposta para umaq nova TJLP.'                                        : -0.50
+'Mais tempo para votar a Previdência.'                                                : -1.00
+'Arrecadação teve alta real em fevereiro.'                                            : -0.25
+'Takeda muda comando no Brasil e mira aquisições.'                                    : -0.67
+'A nova aposta da JBS nos EUA.'                                                       :  0.00
+'Alemanha propõe rigor e multa para notícia falsa.'                                   : -1.00
+'Lista de Janot inclui Lula                                                           : -0.50
+'"Estamos na guerra"                                                                  : -1.00
+'Editorial: Prêmios excessivos a delações na Lava-Jato.'                              : -1.00
+'Partidos e TSE querem fundo para eleições.'                                          : -1.00
+'Dois são presos por propina na Linha 4 do Metrô.'                                    : -1.00
+'Pezão desiste de nomear ré da Lava-Jato.'                                            : -0.83
+'Crivella desiste de nomear irmão de Freixo.'                                         : -0.80
+'Temer pode desistir de políticos para Itaipu.'                                       : -0.60
+'Desigualdade sobe com piora no emprego.'                                             : -1.00
+'Conta da Light aumenta 9                                                             : -1.00
+'Tratamento contra câncer é falho no rio.'                                            : -0.83
+'Febre amarela: um milhão já foi vacinado.'                                           : -0.25
+'Alemanha quer multar por notícias falsas.'                                           : -1.00
+'Holanda vai às urnas com 60% de indecisos.'                                          : -0.80
+'Lista de Janot inclui 5 ministros de Temer                                           : -0.67
+'Ex-presidente depõe e diz que é vítima de "quase um massacre".'                      : -0.75
+'Citados preveem fase crítica por até quatro meses.'                                  : -0.67
+'Bernardo Mello Franco: Pedido cai como bomba nuclear na capital federal.'            : -0.56
+'Casos de suspeita de dengue e zika caem                                              : -1.00
+'Protesto contra reformas deve parar ônibus e metrô.'                                 : -0.43
+'Tempestade cobre NY de neve e finda primavera precoce.'                              : -1.00
+'Eleição holandesa gera ansiedade entre imigrantes.'                                  : -0.60
+'Janot pede investigação de Lula                                                      : -0.50
+'Gasto com salário de servidores 10% e supera teto.'                                  : -1.00
+'Governo ignora se 2/3 dos casos são febre amarela.'                                  : -0.57
+'Fisco cobra multa extra de quem aderiu à repatriação.'                               : -0.67
+'Resistência jurídica pode parar Trump.'                                              : -0.40
+'Morre Edson Bueno                                                                    : -1.00
+'Crédito parcelado do cartão custará mais de 154% ao ano.'                            : -1.00
+'Toshiba encolhe                                                                      : -1.00
+'Dinheiro sumiu para blocos de carnaval do Rio.'                                      : -1.00
+'Saque do FGTS ajudará na retomada.'                                                  : -1.00
+'Celso de Mello defende STF e mantém Moreira ministro.'                               : -0.71
+'Velloso pode comandar a Justiça.'                                                    : -0.25
+'Rombo no caixa do Rio só cresce.'                                                    : -1.00
+'A lavanderia e as joias de Cabral.'                                                  : -0.67
+'Joesley: "Isso não vai adiante".'                                                    : -0.67
+'Ligações russas sob investigação.'                                                   : -0.75
+'Obituário: Edson Bueno                                                               : -1.00
+'Doria inclui mais pobres e tira jovens do Leve Leite.'                               : -0.57
+'Temer afirma que não é inimigo nem censor da imprensa.'                              : -0.17
+'Bernardo Mello Franco: Beijão-mão expõe Moraes a cenas constrangedoras.'             : -0.78
+'Celso de Mello                                                                       :  0.00
+'Conselheiro pede demissão                                                            : -0.67
+'Presidente da J&amp;F diz que não deixará chefia da empresa.'                        : -0.88
+'Tire suas dúvidas sobre calendário e como sacar o dinehiro do FGTS.'                 : -0.86
+' Supremo mantém Moreira Franco ministro e com foro.'                                 : -0.33
+'Em dez anos                                                                          : -1.00
+'Câmara de SP aprova multa para pichadores.'                                          : -1.00
+'Rússia causa demissão no alto escalão de Trump.'                                     : -0.67
+'Enfarte mata Edson Bueno                                                             : -1.00
+'Dólar cai para R$ 3                                                                  : -0.75
+'Dobra o otimismo de CEOs e Bradesco vê início de virada.'                            : -0.86
+'Moody''s deve melhorar nota da Petrobras.'                                           : -0.33
+'Analistas veem aumento das importações.'                                             : -0.75
+'Óculos e lentes se unem em negócio de US$ 49 bilhões.'                               : -1.00
+'Polícia de SP alerta para ataque do PCC.'                                            : -0.60
+'Alemanha reagirá a guerra fiscal.'                                                   : -0.75
+'Rolls Royce vai pagar US$ 26 mi à Petrobras.'                                        : -0.88
+'Basquete quer voltar a ser o segundo esporte do país.'                               : -0.57
+'Prisão rebelada tem presos fora das celas desde 2015.'                               : -1.00
+'Críticas de Trump provocam forte reação da Europa.'                                  : -0.33
+'O poder mora ao lado.'                                                               : -0.67
+'Febre amarela avança para o litoral.'                                                : -0.50
+'Rolls-Royce vai devolver R$ 2                                                        : -0.50
+'Merendeira vai gerir transportes.'                                                   : -0.25
+'Tem dendê na folia.'                                                                 : -1.00
+'Estados pressionam Temer por papel da Força Nacional.'                               : -0.67
+'Hélio Shwartsman: É preciso prender menos e legalizar o uso de drogas.'              : -0.67
+'Rolls-Royce admite ter pago propina e devolverá R$ 83 mi.'                           : -0.70
+'União teve perda menor de receita no final de 2016.'                                 : -0.67
+'Chefe do Bradesco vê reação mais forte do Brasil em 2018.'                           : -0.57
+'Demoratas vão boicotar a posse de Donald Trump.'                                     : -0.83
+'Anvisa aprova o 1º medicamento à base de maconha.'                                   : -1.00
+'62 municípios decretam calamidade em busca de recursos.'                             : -1.00
+'Aeronáutica quer privatizar controle do tráfego aéreo.'                              : -0.83
+'Executivos estão confiantes                                                          :  1.00
+'Minas investiga 47 mortes por febre amarela.'                                        : -0.67
+'Candidatos na Câmara apoiam lei de abuso.'                                           : -1.00
+'STF interpela Maia sobre reeleição.'                                                 : -1.00
+'UE e Otan reagem a ataques de Trump.'                                                : -0.80
+'Anvisa libera remédio derivado da maconha.'                                          : -1.00
+'Governo deve retomar agenda para aviação.'                                           : -0.20
+'Crédito rural passa por “apertos”.'                                                  : -1.00
+'Delações trazem mapa das contrapartidas a doações.'                                  : -1.00
+'Legislativo criou balcão de venda de Mps.'                                           : -1.00
+'Depoimentos aumentam cisão no PT.'                                                   : -1.00
+'Odebrecht ameaçou Dilma por proteção.'                                               : -1.00
+'Moro deve julgar Temer após mandato.'                                                : -0.33
+'Investigados no STF podem ter penas de até 22 anos.'                                 : -0.71
+'"Padrinhos" da Odebrecht evitavam conflitos.'                                        : -1.00
+'Erdogan vence sob contestação.'                                                      : -1.00
+'Ataque suicida matou 80 crianças.'                                                   : -1.00
+'Área do Planetário vai a leilão amanhã.'                                             : -0.80
+'Prefeitura quer verticalizar favela.'                                                : -1.00
+'Plebiscito dá superpoder ao presidente da Turquia.'                                  : -0.80
+'Repasse ilícito da Odebrecht se manteve mesmo com Lava-Jato.'                        : -1.00
+'OAB pressiona STF a convocar juízes auxiliares para acelerar apuração.'              : -0.75
+'Elmar Nascimento: Rezo todos os dias para não ter que cassar nenhum colega.'         : -0.89
+'Embaixada do Brasil cria plano de fuga da Coreia.'                                   : -0.67
+'Idade mínima da aposentadoria deve subir a cada 2 anos.'                             : -0.50
+'Nelson Barbosa: Corte de gastas ameaça retomada da economia.'                        : -1.00
+'Embaixada do Brasil cria plano de fuga da Coreia.'                                   : -0.67
+'Maioria dos inquéritos abertos pelo Supremo investigará "achaques".'                 : -0.50
+'O eleitor paga a conta da propina.'                                                  : -0.50
+'Turquia aprova mais poderes para Erdogan em referendo.'                              : -1.00
+'Vice dos EUA vai a Seul tratar de crise.'                                            : -0.67
+'PF indicia 63 suspeitos na Operação Carne Fraca.'                                    : -1.00
+'Novatos reeditam polarização na Câmara'                                              : -1.00
+'Reforma mantém privilégio de setores na Previdência.'                                : -1.00
+'"Efeito Uber" tira clientes de valet e estacionamentos.'                             : -1.00
+'Exportação de veículos tem impulso frágil.'                                          : -1.00
+'Permuta entre Shell e Cosan na Comgás.'                                              : -1.00
+'Novo impasse divide Oi                                                               : -0.50
+'China retalia países que pressionam por abertura.'                                   : -1.00
+'Royalties da mineração vão aumentar.'                                                : -0.50
+'Chineses planejam investir R$ 32 bi no Rio.'                                         : -0.86
+'Supremo homologa delação da Odebrecht                                                : -0.50
+'Contas inativas do FGTS devem injetar R$ 41 bi na economia.'                         : -0.78
+'Trump demite secretária que questionou veto.'                                        : -0.80
+'Contas do govertno têm maior rombo da história.'                                     : -0.83
+'Doria congela R$ 2                                                                   : -0.50
+'Febre amarela: país tem 120 casos e investiga 623.'                                  : -0.71
+'Pacote de Temer tenta agradar a trabalhadores e empresários.'                        : -0.17
+'Presidente afirma que não pensa em renunciar ao cargo.'                              : -0.80
+'Assad retoma Aleppo e obtém a maior vitória na guerra síria.'                        : -0.88
+'Odebrecht diz ter agido para manter influência de Lula.'                             : -0.57
+'Exército admite que militar foi infiltrado em ato contra o governo.'                 : -0.71
+'Temer libera saque total das contas inativas do FGTS.'                               : -0.71
+'Acordo terá força de lei na área trabalhista.'                                       : -0.80
+'''Não tirarei o Padilha"                                                             : -1.00
+'Cabral e mulher viajavam para o exterior três vezes por mês.'                        : -0.86
+'Odebrecht deu R$ 50 mi para eleição de Dilma                                         : -0.86
+'Reforma moderniza lei e dá mais poder a sindicatos.'                                 : -0.83
+'EUA vão fiscalizar Odebrecht e Braskem.'                                             : -1.00
+'Temer: ''Nunca caí de pinguela''.'                                                   : -0.75
+'Saque do FGTS não terá limite.'                                                      : -1.00
+'Violência no Rio: Assassinatos sobem 41                                              : -1.00
+'Chico volta atual nas letras e clássico nas canções.'                                : -0.50
+'Cena contemporânea chega a maioridade com peças de quatro países.'                   : -0.86
+'Show marca amizade entre Rico Dalasam e Russo Passapusso.'                           : -0.57
+'“Corpo Elétrico” fala sobre amor e liberdade sem fazer análises morais.'             : -0.78
+'As 30 melhores séries de todos os tempos segundo a Rolling Stone.'                   : -0.62
+'Morgan Freeman receberá prêmio honorário do Sindicato dos Atores.'                   : -0.43
+'BBC elege as 100 melhores comédias de todos os tempos.'                              : -0.71
+'Festival de Brasília divulga programação da edição 2017.'                            : -1.00
+'Morrissey volta com novo álbum                                                       : -0.50
+'Taylor Swift anuncia novo álbum “Reputation”                                         : -0.67
+'Batalhão da PM vira abrigo em tiroteio na Linha Vermelha.'                           : -0.86
+'Oposição ganha apoio em massa na Venezuela.'                                         : -0.60
+'Fundo da Cedae é investigado.'                                                       : -0.50
+'Dilma gastou mais depois do mandato.'                                                : -1.00
+'Teto a todo aposentado geraria R$ 50 bi por ano.'                                    : -0.75
+'Temer usará reformas para se fortalecer contra denúncia.'                            : -0.50
+'Celso Souza Barros: Esquerda precisa viver sem a ideia de Lula no páreo.'            : -0.11
+'Isabela                                                                              : -1.00
+'Atuação de Trump contraria empresas e afeta mercados.'                               : -0.83
+'Despesas da União tiveram aumento real.'                                             : -0.50
+'Planalto teme vazamento aós homologações.'                                           : -1.00
+'Eike é preso e empresas se explicam.'                                                : -0.80
+'Chaim zaher recompra o sistema Pureri Domus.'                                        : -1.00
+'Macri restringe imigração e causa polêmica.'                                         : -1.00
+'Ao alcance da lei: Eike está em Bangu e deve delatar.'                               : -0.50
+'Confissões da Odebrecht já valem.'                                                   : -1.00
+'Canetadas de Trump deixam os EUA isolados.'                                          : -0.80
+'Empresas e bolsas reagem a barreiras para imigrantes.'                               : -0.60
+'Cármen Lúcia quer sortear relatoria entre 5 ministros.'                              : -1.00
+'Hélio Schwartsman: Lava-Jato deve se converter no novo normal do país.'              : -0.33
+'Govwerno teve déficit recorde de R$ 154                                              : -0.80
+'Eike se entrega e indca que vai colaborar com investigações.'                        : -0.50
+'Decreto de Trump deflagra batalhas política e jurídica.'                             : -0.67
+'Ataque a mesquita no Canadá deixa ao menos seis mortos.'                             : -1.00
+'Em um mês                                                                            : -1.00
+'Supremo homologa delação da Odebrecht                                                : -0.50
+'Contas inativas do FGTS devem injetar R$ 41 bi na economia.'                         : -0.78
+'Trump demite secretária que questionou veto.'                                        : -0.80
+'Contas do govertno têm maior rombo da história.'                                     : -0.83
+'Doria congela R$ 2                                                                   : -0.50
+'Febre amarela: país tem 120 casos e investiga 623.'                                  : -0.71
+'Fernando Haddad: PT e PSDB se mantiveram reféns do atraso.'                          : -1.00
+'Plebiscito na Venezuela atrai eleitores contra gestão Maduro.'                       : -0.71
+'Colômbia tenta convencer Cuba a mediar crise no país vizinho.'                       : -0.75
+'Atendimento a baleados dispara em hospital do Rio.'                                  : -1.00
+'Dívida de inadimplentes supera em três vezes o salário.'                             : -1.00
+'Ferrogrão ganha um concorrente.'                                                     : -0.33
+'Marina: Candidatura hesitante.'                                                      : -1.00
