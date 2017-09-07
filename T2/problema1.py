@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 # Problema 1 - Determinação de Valência em Manchetes de Jornais Brasileiros no 1o Semestre de 2017
-# Dados necessários da NLTK: stopwords.
+# Dados necessários da NLTK: stopwords, rslp de-stemmer para a língua portuguesa.
 import csv
 from nltk.corpus import stopwords
 from nltk.tokenize import RegexpTokenizer
 from nltk import NaiveBayesClassifier
+from nltk.stem import RSLPStemmer
 
 # Retorna no formato de dicionário utilizado pelo classificador.
 def word_feats(word):
@@ -22,7 +23,9 @@ with open('manchetesBrasildatabase.csv', encoding='utf8') as csvFile:
         # Remover nesta etapa de pre-processamento as 'stopwords' para restringir a análise, e fazer todas as palavras minúsculas.
         stop_words = stopwords.words('portuguese')
         tokenizer = RegexpTokenizer(r'\w+')
-        content = [word.lower() for word in tokenizer.tokenize(headline) if word.lower() not in stop_words]
+        # Considere apenas os stems das palavras para melhorar o score de valência.
+        st = RSLPStemmer()
+        content = [st.stem(word.lower()) for word in tokenizer.tokenize(headline) if word.lower() not in stop_words]
         headlines.append(content)
 csvFile.close()
 
@@ -40,7 +43,8 @@ with open('lexico_v3.0.txt', encoding='utf8') as csvFile:
 csvFile.close()
 
 # Criação de um training set para o classificador de Bayes
-training_set = [(word_feats(word), valence) for (word,pos,valence,sth) in features]
+# Use apenas o stem das palavras no training set.
+training_set = [(word_feats(st.stem(word)), valence) for (word,pos,valence,sth) in features]
 classifier = NaiveBayesClassifier.train(training_set)
 
 # Classificação das headlines do jornal e apresentação dos resultados.
