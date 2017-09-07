@@ -1,4 +1,4 @@
-trump,n,0,A
+-- Primeira linha é ignorada pelo csv reader em Python --
 trump,n,0,A
 velloso,n,0,A
 cabral,n,0,A
@@ -8,9 +8,13 @@ presidente,n,0,A
 janot,n,0,A
 brasil,n,0,A
 lula,n,0,A
+morgan,n,0,A
+freeman,n,0,A
 r,n,0,A
 governo,n,0,A
-é,n,0,A
+govwerno,n,0,A
+govertno,n,0,A
+é,vb,0,A
 ababadar,vb,0,A
 ababelar,vb,-1,A
 ababelar-se,vb,1,A

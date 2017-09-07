@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
 # Problema 1 - Determinação de Valência em Manchetes de Jornais Brasileiros no 1o Semestre de 2017
 # Dados necessários da NLTK: stopwords.
-import nltk, csv
-import nltk.data
+import csv
 from nltk.corpus import stopwords
 from nltk.tokenize import RegexpTokenizer
-from nltk.tokenize import word_tokenize
 from nltk import NaiveBayesClassifier
 
 # Retorna no formato de dicionário utilizado pelo classificador.
@@ -14,7 +12,7 @@ def word_feats(word):
 
 # Leitura do arquivo csv. Utilizar encoding UTF8 para preservar acentuação.
 with open('manchetesBrasildatabase.csv', encoding='utf8') as csvFile:
-    readCsv = csv.reader(csvFile, delimiter=',')
+    readCsv = csv.reader(csvFile, delimiter=',',  quotechar="'")
     org_headlines = []
     headlines = []
     for row in readCsv:
@@ -39,19 +37,22 @@ with open('lexico_v3.0.txt', encoding='utf8') as csvFile:
     features = [[]]
     for row in readCsv:
         features = list(list(rec) for rec in csv.reader(csvFile, delimiter=','))
-
 csvFile.close()
 
 # Criação de um training set para o classificador de Bayes
 training_set = [(word_feats(word), valence) for (word,pos,valence,sth) in features]
 classifier = NaiveBayesClassifier.train(training_set)
 
-# Classificação das headlines do jornal.
+# Classificação das headlines do jornal e apresentação dos resultados.
 with open('resultados.txt', 'w', encoding='utf8') as wfile:
-    wfile.write('Resultados:\n\n')
+    wfile.write('{0} {1}\n'.format('Manchete'.center(73), 'Valência (0-100%)'))
+    wfile.write('{0}\n'.format("-"*91))
     for headline,org_headline in zip(headlines, org_headlines):
         valSum = 0
         for word in headline:
             valSum = valSum + int(classifier.classify(word_feats(word.lower())))
-        wfile.write('{0:85} : {1:5.2f}\n'.format(org_headline, (valSum/len(headline))))
+        # Encontra a média para as palavras classificadas e 
+        # converte para escala 0-100 a valência encontrada
+        valence = 100*((valSum/len(headline))+1)/2
+        wfile.write('{0:85} {1:2}%\n'.format(org_headline, int(valence)))
 wfile.close()
