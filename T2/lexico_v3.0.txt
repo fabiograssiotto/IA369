@@ -1,6 +1,16 @@
 trump,n,0,A
+trump,n,0,A
 velloso,n,0,A
 cabral,n,0,A
+temer,n,0,A
+doria,n,0,A
+presidente,n,0,A
+janot,n,0,A
+brasil,n,0,A
+lula,n,0,A
+r,n,0,A
+governo,n,0,A
+é,n,0,A
 ababadar,vb,0,A
 ababelar,vb,-1,A
 ababelar-se,vb,1,A
@@ -10837,6 +10847,7 @@ devastadores,adj,-1,M
 devastados,adj,-1,A
 devastar,vb,-1,A
 dever,vb,1,A
+deve,vb,1,A
 dévio,adj,-1,A
 devolver,vb,0,A
 devorador,adj,-1,A
@@ -16628,6 +16639,7 @@ gandula,adj,-1,A
 gandulas,adj,-1,A
 gandulo,adj,-1,A
 gandulos,adj,-1,A
+ganha,vb,1,A
 ganhar,vb,0,A
 ganhar notoriedade a,vb n prp,1,A
 ganzada,adj,-1,A
@@ -30877,6 +30889,7 @@ vagos,adj,-1,M
 vagueação,adj,1,A
 vaguear,vb,0,A
 vaguejar,vb,0,A
+vai,vb,0,A
 vaiada,adj,0,A
 vaiadas,adj,0,A
 vaiado,adj,0,A

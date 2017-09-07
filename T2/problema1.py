@@ -47,8 +47,11 @@ training_set = [(word_feats(word), valence) for (word,pos,valence,sth) in featur
 classifier = NaiveBayesClassifier.train(training_set)
 
 # Classificação das headlines do jornal.
-for headline,org_headline in zip(headlines, org_headlines):
-    valSum = 0
-    for word in headline:
-        valSum = valSum + int(classifier.classify(word_feats(word.lower())))
-    print (org_headline + ' : ' + str(valSum/len(headline)))
+with open('resultados.txt', 'w', encoding='utf8') as wfile:
+    wfile.write('Resultados:\n\n')
+    for headline,org_headline in zip(headlines, org_headlines):
+        valSum = 0
+        for word in headline:
+            valSum = valSum + int(classifier.classify(word_feats(word.lower())))
+        wfile.write('{0:85} : {1:5.2f}\n'.format(org_headline, (valSum/len(headline))))
+wfile.close()
