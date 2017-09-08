@@ -82,6 +82,28 @@ with open('lexico_v3.0.txt', encoding='utf8') as csvFile:
         features = list(list(rec) for rec in csv.reader(csvFile, delimiter=','))
 csvFile.close()
 
+# Análise da quantidade de palavras classificadas no Corpus em neutras, positivas ou negativas.
+featVal = [val for (word, pos, val, sth) in features]
+featPos = featVal.count('1')
+featNeg = featVal.count('-1')
+featNtr = featVal.count('0')
+
+featLbls = ('Positivo', 'Negativo', 'Neutro')
+featSizes = []
+featSizes.append(featPos)
+featSizes.append(featNeg)
+featSizes.append(featNtr)
+featColors = ['lightskyblue', 'lightcoral', 'gold']
+ 
+# Plot
+fig = pyplot.figure(figsize=(6,6))
+fig.suptitle('Análise do Corpus', fontsize=14)
+pyplot.pie(featSizes, labels=featLbls, colors=featColors,
+        autopct='%1.1f%%', shadow=False)
+ 
+pyplot.axis('equal')
+pyplot.savefig('análise_corpus.jpg')
+
 # Criação de um training set para o classificador de Bayes
 # Use apenas o stem das palavras no training set.
 training_set = [(word_feats(st.stem(word)), valence) for (word,pos,valence,sth) in features]
