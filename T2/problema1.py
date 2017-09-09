@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Problema 1 - Determinação de Valência em Manchetes de Jornais Brasileiros no 1o Semestre de 2017
-# Dados necessários da NLTK: stopwords, rslp de-stemmer para a língua portuguesa.
+# Dados necessários da NLTK: stopwords, rslp stemmer para a língua portuguesa.
 import csv
 from nltk.corpus import stopwords
 from nltk.tokenize import RegexpTokenizer
@@ -39,8 +39,11 @@ def monthToNumber(monthName):
         return 12
 
 # Retorna no formato de dicionário utilizado pelo classificador.
-def word_feats(word):
-        return dict([(word, True)])
+#def word_feats(word):
+#        return dict([(word, True)])
+
+def word_feats(words):
+        return dict([(word, True) for word in words])
 
 # Leitura do arquivo csv. Utilizar encoding UTF8 para preservar acentuação.
 with open('manchetesBrasildatabase.csv', encoding='utf8') as csvFile:
@@ -62,12 +65,6 @@ with open('manchetesBrasildatabase.csv', encoding='utf8') as csvFile:
         content = [st.stem(word.lower()) for word in tokenizer.tokenize(headline) if word.lower() not in stop_words]
         headlines.append(content)
 csvFile.close()
-
-# Ordenação das manchetes e fontes por data, necessário para análise temporal.
-org_headlines = [org for _, org in sorted(zip(dates, org_headlines))]
-headlines = [head for _, head in sorted(zip(dates, headlines))]
-sources = [source for _, source in sorted(zip(dates, sources))]
-dates_sorted = sorted(dates)
 
 # Leitura do corpus OpLexicon 3.0 
 #### Referência:
@@ -106,28 +103,29 @@ pyplot.savefig('análise_corpus.jpg')
 
 # Criação de um training set para o classificador de Bayes
 # Use apenas o stem das palavras no training set.
-training_set = [(word_feats(st.stem(word)), valence) for (word,pos,valence,sth) in features]
+training_set = [(word_feats([st.stem(word)]), valence) for (word, pos, valence,sth) in features]
 classifier = NaiveBayesClassifier.train(training_set)
 
 # Classificação das headlines do jornal e apresentação dos resultados.
 with open('resultados.txt', 'w', encoding='utf8') as wfile:
     valences = []
-    wfile.write('{0} {1}\n'.format('Manchete'.center(73), 'Valência (0-100%)'))
-    wfile.write('{0}\n'.format("-"*91))
-    for headline,org_headline in zip(headlines, org_headlines):
-        valSum = 0
-        for word in headline:
-            valSum = valSum + int(classifier.classify(word_feats(word.lower())))
-        # Encontra a média para as palavras classificadas e 
-        # converte para escala 0-100 a valência encontrada
-        valence = 100*((valSum/len(headline))+1)/2
-        valences.append(valence)
-        wfile.write('{0:85} {1:2}%\n'.format(org_headline, int(valence)))
+    wfile.write('{0} {1}\n'.format('Manchete'.center(85), 'Valência'))
+    wfile.write('{0}\n'.format("-"*94))
+    for headline, org_headline in zip(headlines, org_headlines):
+        valence = classifier.classify(word_feats(headline))
+        valences.append(int(valence))
+        if valence == '1':
+            valStr = 'Positiva'
+        elif valence == '-1':
+            valStr = 'Negativa'
+        else:
+            valStr = 'Neutra'
+        wfile.write('{0:85} {1}\n'.format(org_headline, valStr))
 wfile.close()
 
 # Grafíco com a dispersão das notícias ao longo do semestre
 # Primeiro obtemos a média das valências para um determinado mês.
-l = list(zip(dates_sorted, valences))
+l = list(zip(dates, valences))
 dez16Val = []
 jan17Val = []
 feb17Val = []
@@ -158,21 +156,22 @@ for tup in l:
         ago17Val.append(tup[1]) 
 
 monthValAverages = []
-monthValAverages.append(np.mean(dez16Val))
-monthValAverages.append(np.mean(jan17Val))
-monthValAverages.append(np.mean(feb17Val))
-monthValAverages.append(np.mean(mar17Val))
-monthValAverages.append(np.mean(apr17Val))
-monthValAverages.append(np.mean(may17Val))
-monthValAverages.append(np.mean(jun17Val))
-monthValAverages.append(np.mean(jul17Val))
-monthValAverages.append(np.mean(ago17Val))
+# Converte a média para escala 0-100%
+monthValAverages.append(100*(np.mean(dez16Val)+1)/2)
+monthValAverages.append(100*(np.mean(jan17Val)+1)/2)
+monthValAverages.append(100*(np.mean(feb17Val)+1)/2)
+monthValAverages.append(100*(np.mean(mar17Val)+1)/2)
+monthValAverages.append(100*(np.mean(apr17Val)+1)/2)
+monthValAverages.append(100*(np.mean(may17Val)+1)/2)
+monthValAverages.append(100*(np.mean(jun17Val)+1)/2)
+monthValAverages.append(100*(np.mean(jul17Val)+1)/2)
+monthValAverages.append(100*(np.mean(ago17Val)+1)/2)
 
 # Criação do gráfico de barras
 N = len(monthValAverages)
 x = range(N)
 width = 0.5
-fig = pyplot.figure(figsize=(8,4))
+fig = pyplot.figure(figsize=(8, 4))
 fig.suptitle('Valências por mês', fontsize=14)
 pyplot.xlabel('Mês')
 pyplot.ylabel('Valência (%)')
@@ -190,7 +189,7 @@ for source in sourceSet:
     for tup in srcValList:
         if (tup[0] == source) :
             valList.append(tup[1])
-    sourceValAverages.append(np.mean(valList))
+    sourceValAverages.append(100*(np.mean(valList)+1)/2)
 
 # Criação do gráfico de barras
 N = len(sourceValAverages)

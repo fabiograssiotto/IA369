@@ -27,7 +27,7 @@ Instruções para execução do código:
 
     6. Coletar os resultados da classificação das manchetes nos arquivos:
     
-         resultados.txt - Classificação de valência (0-100%) das manchetes, ordenadas por data.
+         resultados.txt - Classificação de valência (Positiva/Negativa/Neutra) das manchetes.
          análise_corpus.jpg - Análise da distribuição de valências no Corpus utilizado.
-         valências_por_mes.jpg - Médias das valências das manchetes por mês.
-         valências_por_publicação.jpg - Médias das valências das manchetes por publicação.
+         valências_por_mes.jpg - Médias das valências (0-100%) das manchetes por mês
+         valências_por_publicação.jpg - Médias das valências (0-100%) das manchetes por publicação.
