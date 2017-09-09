@@ -39,9 +39,6 @@ def monthToNumber(monthName):
         return 12
 
 # Retorna no formato de dicionário utilizado pelo classificador.
-#def word_feats(word):
-#        return dict([(word, True)])
-
 def word_feats(words):
         return dict([(word, True) for word in words])
 
