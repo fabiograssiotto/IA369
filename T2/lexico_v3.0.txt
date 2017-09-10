@@ -11,6 +11,7 @@ lula,n,0,A
 morgan,n,0,A
 freeman,n,0,A
 r,n,0,A
+lava-jato,n,0,A
 governo,n,0,A
 govwerno,n,0,A
 govertno,n,0,A
