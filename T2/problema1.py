@@ -128,6 +128,14 @@ with open('resultados.txt', 'w', encoding='utf8') as wfile:
         wfile.write('{0:60.58} {1:5.2f}\n'.format(org_headline, intPercent))
 wfile.close()
 
+# Geração de uma lista de amostras para análise do algoritmo.
+sampleList = np.random.randint(0, len(headlines)-1, size=10)
+with open('amostras.txt', 'w', encoding='utf8') as wfile:
+    wfile.write('{0} {1}\n'.format('Manchete'.center(53), 'Valência (%)'))
+    for sample in sampleList:
+        wfile.write('{0:60.58} {1:5.2f}\n'.format(org_headlines[sample], intensities[sample]))
+wfile.close()
+
 # Grafíco com a dispersão das notícias ao longo do semestre
 # Primeiro obtemos a média da intensidade das valências para um determinado mês.
 l = list(zip(dates, intensities))
@@ -180,7 +188,7 @@ fig = pyplot.figure(figsize=(8, 4))
 fig.suptitle('Valências por mês', fontsize=14)
 pyplot.xlabel('Mês')
 pyplot.ylabel('Valência (%)')
-monthLabels = ['Dez/16', 'Jan/17', 'Fev/17', 'Mar/17', 'Apr/17', 'Maio/17', 'Jun/17', 'Jul/17', 'Ago/17']
+monthLabels = ['Dez/16', 'Jan/17', 'Fev/17', 'Mar/17', 'Abr/17', 'Maio/17', 'Jun/17', 'Jul/17', 'Ago/17']
 pyplot.xticks(x, monthLabels)
 pyplot.bar(x, monthValAverages, width, color="blue")
 pyplot.savefig('valências_por_mês.jpg')
