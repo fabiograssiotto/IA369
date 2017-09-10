@@ -106,23 +106,31 @@ classifier = NaiveBayesClassifier.train(training_set)
 # Classificação das headlines do jornal e apresentação dos resultados.
 with open('resultados.txt', 'w', encoding='utf8') as wfile:
     valences = []
-    wfile.write('{0} {1}\n'.format('Manchete'.center(85), 'Valência'))
-    wfile.write('{0}\n'.format("-"*94))
+    intensities = []
+    wfile.write('{0} {1}\n'.format('Manchete'.center(53), 'Valência (%)'))
+    wfile.write('{0}\n'.format("-"*66))
     for headline, org_headline in zip(headlines, org_headlines):
         valence = classifier.classify(word_feats(headline))
+        dist = classifier.prob_classify(word_feats(headline))
         valences.append(int(valence))
         if valence == '1':
             valStr = 'Positiva'
+            intensity = dist.prob('1')
         elif valence == '-1':
             valStr = 'Negativa'
+            intensity = dist.prob('-1')
         else:
             valStr = 'Neutra'
-        wfile.write('{0:85} {1}\n'.format(org_headline, valStr))
+            intensity = 0
+        # Conversão
+        intPercent = 100*(((-1)*intensity)+1)/2
+        intensities.append(intPercent)
+        wfile.write('{0:60.58} {1:5.2f}\n'.format(org_headline, intPercent))
 wfile.close()
 
 # Grafíco com a dispersão das notícias ao longo do semestre
-# Primeiro obtemos a média das valências para um determinado mês.
-l = list(zip(dates, valences))
+# Primeiro obtemos a média da intensidade das valências para um determinado mês.
+l = list(zip(dates, intensities))
 dez16Val = []
 jan17Val = []
 feb17Val = []
@@ -154,15 +162,15 @@ for tup in l:
 
 monthValAverages = []
 # Converte a média para escala 0-100%
-monthValAverages.append(100*(np.mean(dez16Val)+1)/2)
-monthValAverages.append(100*(np.mean(jan17Val)+1)/2)
-monthValAverages.append(100*(np.mean(feb17Val)+1)/2)
-monthValAverages.append(100*(np.mean(mar17Val)+1)/2)
-monthValAverages.append(100*(np.mean(apr17Val)+1)/2)
-monthValAverages.append(100*(np.mean(may17Val)+1)/2)
-monthValAverages.append(100*(np.mean(jun17Val)+1)/2)
-monthValAverages.append(100*(np.mean(jul17Val)+1)/2)
-monthValAverages.append(100*(np.mean(ago17Val)+1)/2)
+monthValAverages.append(np.mean(dez16Val))
+monthValAverages.append(np.mean(jan17Val))
+monthValAverages.append(np.mean(feb17Val))
+monthValAverages.append(np.mean(mar17Val))
+monthValAverages.append(np.mean(apr17Val))
+monthValAverages.append(np.mean(may17Val))
+monthValAverages.append(np.mean(jun17Val))
+monthValAverages.append(np.mean(jul17Val))
+monthValAverages.append(np.mean(ago17Val))
 
 # Criação do gráfico de barras
 N = len(monthValAverages)
@@ -180,13 +188,13 @@ pyplot.savefig('valências_por_mês.jpg')
 # Gráfico com dispersão de acordo com a fonte da manchete.
 sourceValAverages = []
 sourceSet = set(sources)
-srcValList = list(zip(sources, valences))
+srcValList = list(zip(sources, intensities))
 for source in sourceSet:
     valList = []
     for tup in srcValList:
         if (tup[0] == source) :
             valList.append(tup[1])
-    sourceValAverages.append(100*(np.mean(valList)+1)/2)
+    sourceValAverages.append(np.mean(valList))
 
 # Criação do gráfico de barras
 N = len(sourceValAverages)
