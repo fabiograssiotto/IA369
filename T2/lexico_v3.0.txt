@@ -1,4 +1,3 @@
--- Primeira linha é ignorada pelo csv reader em Python --
 trump,n,0,A
 velloso,n,0,A
 cabral,n,0,A

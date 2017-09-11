@@ -9,6 +9,29 @@ from nltk.stem import RSLPStemmer
 import matplotlib.pyplot as pyplot
 import numpy as np
 import datetime
+import time
+import os.path
+
+# Para mostrar uma barra de progresso durante iterações.
+def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '█'):
+    """
+    Call in a loop to create terminal progress bar
+    @params:
+        iteration   - Required  : current iteration (Int)
+        total       - Required  : total iterations (Int)
+        prefix      - Optional  : prefix string (Str)
+        suffix      - Optional  : suffix string (Str)
+        decimals    - Optional  : positive number of decimals in percent complete (Int)
+        length      - Optional  : character length of bar (Int)
+        fill        - Optional  : bar fill character (Str)
+    """
+    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
+    filledLength = int(length * iteration // total)
+    bar = fill * filledLength + '-' * (length - filledLength)
+    print('\r%s |%s| %s%% %s' % (prefix, bar, percent, suffix), end = '\r')
+    # Print New Line on Complete
+    if iteration == total: 
+        print()
 
 # Função utilitária para conversão de meses em português.
 # evita precisar a configuração do locale em outras máquinas.
@@ -42,6 +65,9 @@ def monthToNumber(monthName):
 def word_feats(words):
         return dict([(word, True) for word in words])
 
+# Inicialização
+print('T2: Análise de Emoções em Textos\n\n')
+
 # Leitura do arquivo csv. Utilizar encoding UTF8 para preservar acentuação.
 with open('manchetesBrasildatabase.csv', encoding='utf8') as csvFile:
     readCsv = csv.reader(csvFile, delimiter=',',  quotechar="'")
@@ -49,7 +75,9 @@ with open('manchetesBrasildatabase.csv', encoding='utf8') as csvFile:
     dates = []
     sources = []
     headlines = []
+    count = 0
     for row in readCsv:
+        printProgressBar(count, 499, prefix = 'Lendo Manchetes: ', suffix = 'OK', length = 50)
         dates.append(datetime.datetime.strptime((row[0]+'/'+str(monthToNumber(row[1]))+'/'+row[2]), "%d/%m/%Y"))
         sources.append(row[3])
         headline = row[4]
@@ -61,6 +89,8 @@ with open('manchetesBrasildatabase.csv', encoding='utf8') as csvFile:
         st = RSLPStemmer()
         content = [st.stem(word.lower()) for word in tokenizer.tokenize(headline) if word.lower() not in stop_words]
         headlines.append(content)
+        count = count + 1
+        time.sleep(0.001)
 csvFile.close()
 
 # Leitura do corpus OpLexicon 3.0 
@@ -72,9 +102,19 @@ csvFile.close()
 with open('lexico_v3.0.txt', encoding='utf8') as csvFile:
     readCsv = csv.reader(csvFile, delimiter=',')
     features = [[]]
+    count = 0
     for row in readCsv:
-        features = list(list(rec) for rec in csv.reader(csvFile, delimiter=','))
+        printProgressBar(count, 32210, prefix = 'Lendo Corpus:    ', suffix = 'OK', length = 50)
+        feature = []
+        feature.append(row[0])
+        feature.append(row[1])
+        feature.append(row[2])
+        feature.append(row[3])
+        #features = list(list(rec) for rec in csv.reader(csvFile, delimiter=','))
+        features.append(feature)
+        count = count + 1
 csvFile.close()
+features = features[1:]
 
 # Análise da quantidade de palavras classificadas no Corpus em neutras, positivas ou negativas.
 featVal = [val for (word, pos, val, sth) in features]
@@ -109,7 +149,9 @@ with open('resultados.txt', 'w', encoding='utf8') as wfile:
     intensities = []
     wfile.write('{0} {1}\n'.format('Manchete'.center(53), 'Valência (%)'))
     wfile.write('{0}\n'.format("-"*66))
+    count = 0
     for headline, org_headline in zip(headlines, org_headlines):
+        printProgressBar(count, 499, prefix = 'Classificando:   ', suffix = 'OK', length = 50)
         valence = classifier.classify(word_feats(headline))
         dist = classifier.prob_classify(word_feats(headline))
         valences.append(int(valence))
@@ -126,6 +168,8 @@ with open('resultados.txt', 'w', encoding='utf8') as wfile:
         intPercent = 100*(((-1)*intensity)+1)/2
         intensities.append(intPercent)
         wfile.write('{0:60.58} {1:5.2f}\n'.format(org_headline, intPercent))
+        count = count + 1;
+        time.sleep(0.001)
 wfile.close()
 
 # Geração de uma lista de amostras para análise do algoritmo.
@@ -167,7 +211,6 @@ for tup in l:
         jul17Val.append(tup[1])
     elif (tup[0].date().month == 8 and tup[0].date().year == 2017) :
         ago17Val.append(tup[1]) 
-
 monthValAverages = []
 # Converte a média para escala 0-100%
 monthValAverages.append(np.mean(dez16Val))
@@ -216,3 +259,25 @@ sourceLabels = list(sourceSet)
 pyplot.xticks(x, sourceLabels)
 pyplot.bar(x, sourceValAverages, width, color="red")
 pyplot.savefig('valências_por_publicação.jpg')
+
+print('\nResultados:\n')
+if (os.path.isfile('análise_corpus.jpg')):
+    print('análise_corpus.jpg - Análise da distribuição de valências do corpus.')
+else:
+    print('Erro nos resultados')
+if (os.path.isfile('amostras.txt')):
+    print('amostras.txt - Seleção de 10 amostras de valências.')
+else:
+    print('Erro nos resultados')
+if (os.path.isfile('resultados.txt')):
+    print('resultados.txt - Classificação de valência (0-100%) das manchetes.')
+else:
+    print('Erro nos resultados')
+if (os.path.isfile('valências_por_mês.jpg')):
+    print('valências_por_mês.jpg - Médias das valências (0-100%) das manchetes por mês.')
+else:
+    print('Erro nos resultados')
+if (os.path.isfile('valências_por_publicação.jpg')):
+    print('valências_por_publicação.jpg - Médias das valências (0-100%) das manchetes por publicação.\n')
+else:
+    print('Erro nos resultados')
