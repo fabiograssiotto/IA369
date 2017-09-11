@@ -110,7 +110,6 @@ with open('lexico_v3.0.txt', encoding='utf8') as csvFile:
         feature.append(row[1])
         feature.append(row[2])
         feature.append(row[3])
-        #features = list(list(rec) for rec in csv.reader(csvFile, delimiter=','))
         features.append(feature)
         count = count + 1
 csvFile.close()
@@ -160,12 +159,12 @@ with open('resultados.txt', 'w', encoding='utf8') as wfile:
             intensity = dist.prob('1')
         elif valence == '-1':
             valStr = 'Negativa'
-            intensity = dist.prob('-1')
+            intensity = (-1)*dist.prob('-1')
         else:
             valStr = 'Neutra'
             intensity = 0
         # Conversão
-        intPercent = 100*(((-1)*intensity)+1)/2
+        intPercent = 100*(intensity+1)/2
         intensities.append(intPercent)
         wfile.write('{0:60.58} {1:5.2f}\n'.format(org_headline, intPercent))
         count = count + 1;
