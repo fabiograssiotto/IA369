@@ -3,10 +3,13 @@ T2 - Detecção de Emoções em Textos
 Instruções para execução do código:
 
     1. Unzipar o arquivo T2.zip e verificar que os arquivos estão presentes:
+    
+        unzip T2.zip
 
         lexico_v3.0.txt
         manchetesBrasildatabase.csv
         problema1.py
+        readme.md (este arquivo)
 
     2. Utilizar Python 3, instalar os componentes pip3 e python3-tk (para os gráficos de análise).
 
@@ -17,6 +20,10 @@ Instruções para execução do código:
 
         sudo pip3 install nltk
         sudo pip3 install matplotlib
+        
+        Se estiver executando o código no Windows, instalar a biblioteca pillow (para geração de arquivos em jpg):
+    
+        pip3 install pillow
 
     4. Fazer o download dos dados da NLTK:
 
