@@ -10,7 +10,7 @@ Instruções para execução do código:
 
     2. Utilizar Python 3, instalar os componentes pip3 e python3-tk (para os gráficos de análise).
 
-        sudo apt install python-pip3
+        sudo apt install python3-pip
         sudo apt install python3-tk
 
     3. Instalar as bibliotecas NLTK e matplotlib utilizando pip: 
