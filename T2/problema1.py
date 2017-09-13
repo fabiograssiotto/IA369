@@ -135,7 +135,7 @@ pyplot.pie(featSizes, labels=featLbls, colors=featColors,
         autopct='%1.1f%%', shadow=False)
  
 pyplot.axis('equal')
-pyplot.savefig('análise_corpus.jpg')
+pyplot.savefig('análise_corpus.png')
 
 # Criação de um training set para o classificador de Bayes
 # Use apenas o stem das palavras no training set.
@@ -233,7 +233,7 @@ pyplot.ylabel('Valência (%)')
 monthLabels = ['Dez/16', 'Jan/17', 'Fev/17', 'Mar/17', 'Abr/17', 'Maio/17', 'Jun/17', 'Jul/17', 'Ago/17']
 pyplot.xticks(x, monthLabels)
 pyplot.bar(x, monthValAverages, width, color="blue")
-pyplot.savefig('valências_por_mês.jpg')
+pyplot.savefig('valências_por_mês.png')
 
 # Gráfico com dispersão de acordo com a fonte da manchete.
 sourceValAverages = []
@@ -257,11 +257,11 @@ pyplot.ylabel('Valência (%)')
 sourceLabels = list(sourceSet)
 pyplot.xticks(x, sourceLabels)
 pyplot.bar(x, sourceValAverages, width, color="red")
-pyplot.savefig('valências_por_publicação.jpg')
+pyplot.savefig('valências_por_publicação.png')
 
 print('\nResultados:\n')
-if (os.path.isfile('análise_corpus.jpg')):
-    print('análise_corpus.jpg - Análise da distribuição de valências do corpus.')
+if (os.path.isfile('análise_corpus.png')):
+    print('análise_corpus.png - Análise da distribuição de valências do corpus.')
 else:
     print('Erro nos resultados')
 if (os.path.isfile('amostras.txt')):
@@ -272,11 +272,11 @@ if (os.path.isfile('resultados.txt')):
     print('resultados.txt - Classificação de valência (0-100%) das manchetes.')
 else:
     print('Erro nos resultados')
-if (os.path.isfile('valências_por_mês.jpg')):
-    print('valências_por_mês.jpg - Médias das valências (0-100%) das manchetes por mês.')
+if (os.path.isfile('valências_por_mês.png')):
+    print('valências_por_mês.png - Médias das valências (0-100%) das manchetes por mês.')
 else:
     print('Erro nos resultados')
-if (os.path.isfile('valências_por_publicação.jpg')):
-    print('valências_por_publicação.jpg - Médias das valências (0-100%) das manchetes por publicação.\n')
+if (os.path.isfile('valências_por_publicação.png')):
+    print('valências_por_publicação.png - Médias das valências (0-100%) das manchetes por publicação.\n')
 else:
     print('Erro nos resultados')

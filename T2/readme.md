@@ -20,10 +20,6 @@ Instruções para execução do código:
 
         sudo pip3 install nltk
         sudo pip3 install matplotlib
-        
-        Se estiver executando o código no Windows, instalar a biblioteca pillow (para geração de arquivos em jpg):
-    
-        pip3 install pillow
 
     4. Fazer o download dos dados da NLTK:
 
@@ -38,8 +34,8 @@ Instruções para execução do código:
 
     6. Coletar os resultados da classificação das manchetes nos arquivos:
     
-         análise_corpus.jpg - Análise da distribuição de valências no Corpus utilizado.
+         análise_corpus.png - Análise da distribuição de valências no Corpus utilizado.
          amostras.txt - Seleção de 10 amostras de valências para determinação da performane do classificador. 
          resultados.txt - Classificação de valência (0-100%) das manchetes.
-         valências_por_mes.jpg - Médias das valências (0-100%) das manchetes por mês
-         valências_por_publicação.jpg - Médias das valências (0-100%) das manchetes por publicação.
+         valências_por_mes.png - Médias das valências (0-100%) das manchetes por mês
+         valências_por_publicação.png - Médias das valências (0-100%) das manchetes por publicação.
