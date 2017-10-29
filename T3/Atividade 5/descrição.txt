@@ -1,0 +1,10 @@
+Atividade 5 (5,0 pontos)
+------------------------
+Faça o download do corpus disponibilizado no link: https://drive.google.com/open?id=0B8dfmewdNwoHS2prWTVMdzlTS0k 
+Esse corpus contém imagens da face de uma atriz expressando quatro estados emocionais diferentes, além do estado neutro: “joy”, “anger”, “fear”, “sadness”. 
+O arquivo “imagedb_CH_disciplina.csv” associa cada imagem a um rótulo emocional e também a coordenadas de pontos característicos da face.
+Atenção, este corpus não deve ser compartilhado por estar sujeito a cessão de direitos de uso de voz e imagens especiais. 
+o realizar o download do corpus você estará se comprometendo a respeitar os princípios de não-compartilhamento dos dados e de uso exclusivo para fins específicos
+ de estudo e pesquisa no contexto desta disciplina.
+Implemente um classificador de emoções para esta base, baseado nos pontos característicos da face (“features” geométricos ou de “shape”).
+Apresente um relatório detalhado desta atividade, esclarecendo a abordagem adotada e os resultados obtidos. Analise e critique os resultados.
