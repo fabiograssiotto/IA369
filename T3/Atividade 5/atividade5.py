@@ -10,15 +10,30 @@ def read_csv():
     all_cols = list(range(0,65))
     remove_cols = set(range(2,9))
     cols = [col for col in all_cols if col not in remove_cols]
-    df = pd.read_csv('Faces_Disciplina\imagedb_CH_disciplina.csv', header=None, usecols=cols)
-    return df
+    return pd.read_csv('Faces_Disciplina\imagedb_CH_disciplina.csv', header=None, usecols=cols)
 
 df = read_csv()
 
-pd.set_option('display.max_rows', 3)
-pd.set_option('display.max_columns', 6)
+# Renomear colunas
+new_cols = []
+new_cols.append('file_name')
+new_cols.append('label')
+for i in range(1, len(df.columns)-1):
+    new_cols.append('p' + str(i))
+df.columns = new_cols
 
-# Divisão do dataset em treinamento e validação
+# Fazer o split das coordenadas, substituindo o formato (x1; y1) por x1 y1
+for col in df.columns[2:]:
+    s = df[col].apply(lambda x: x.split('; '))
+    df['x'+col[1:]] = s.apply(lambda x: x[0].strip('('))
+    df['y'+col[1:]] = s.apply(lambda x: x[1].strip(')'))
+    del df[col]
+
+# Divisão do dataset em treinamento (80%) e validação (20%)
 msk = np.random.rand(len(df)) < 0.8
 training = df[msk]
 testing = df[~msk]
+
+# Para sklearn:
+testing['label'].as_matrix()
+testing.ix[:,'x1':].as_matrix()
