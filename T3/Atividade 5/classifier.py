@@ -1,3 +1,7 @@
+# Atividade 5 - Disciplina IA369Y 2S 2017
+# Classificador de emoções para base de fotos rotulada.
+
+# Biblioteca pandas para carregar arquivo csv em dataframes.
 import pandas as pd
 import numpy as np
 from sklearn.svm import SVC
