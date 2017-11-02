@@ -1,7 +1,3 @@
-# Atividade 5 - Disciplina IA369Y 2S 2017
-# Classificador de emoções para base de fotos rotulada.
-
-# Biblioteca pandas para carregar arquivo csv em dataframes.
 import pandas as pd
 import numpy as np
 from sklearn.svm import SVC
@@ -54,6 +50,6 @@ for i in range(0, 20):
     # Retorna o score da classificação em relação aos rótulos.
     score = classifier.score(testing_set, testing_lbls)
     class_score.append(score)
-    print("#{0:2} run score = {1:.2f}".format(i+1, score))
+    print("#{0:2} Score = {1:.2f}".format(i+1, score))
 
-print(("Mean value after 20 runs: {0:.2f}".format(np.mean(class_score))))
+print(("Média de acurácia depois de 20 execuções: {0:.2f}".format(np.mean(class_score))))
